@@ -10,6 +10,14 @@ importers:
       '@types/node': 18.7.6
       typescript: 4.7.4
 
+  ideas/filter-type-predicate:
+    specifiers:
+      '@types/node': ^18.7.6
+      typescript: ^4.7.4
+    devDependencies:
+      '@types/node': 18.7.6
+      typescript: 4.7.4
+
   ideas/react-form-handler:
     specifiers:
       '@types/node': ^18.7.6
@@ -45,14 +53,6 @@ importers:
     dependencies:
       '@types/react': 18.0.17
       react: 18.2.0
-    devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
-
-  ideas/tip-1:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
       '@types/node': 18.7.6
       typescript: 4.7.4
