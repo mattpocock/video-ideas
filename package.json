@@ -1,0 +1,15 @@
+{
+  "name": "video-ideas",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "new": "node scripts/new-idea.js"
+  },
+  "author": "Matt Pocock",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.7.6",
+    "typescript": "^4.7.4"
+  }
+}
