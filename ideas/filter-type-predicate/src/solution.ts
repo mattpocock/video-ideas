@@ -7,5 +7,5 @@ let a = [
   { id: 4, name: "hjk" },
 ];
 
-let b = a.map((x) => x.rawId).filter((x) => x !== undefined);
+let b = a.map((x) => x.rawId).filter((x): x is number => x !== undefined);
 //  ^?

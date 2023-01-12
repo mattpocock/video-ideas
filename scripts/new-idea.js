@@ -20,3 +20,4 @@ execSync(`matt init --pnpm`, {
 execSync(`rm -rf .git`, {
   cwd: absoluteNewPath,
 });
+execSync(`code ${path.resolve(absoluteNewPath, "src", "index.ts")}`);
