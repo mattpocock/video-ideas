@@ -2,11 +2,13 @@
 // mapped over the top, and pass the type to them
 // manually...
 
-const makeFetch = (url: string) => {
+const makeFetch = <TData>(url: string): Promise<TData> => {
   return fetch(url).then((res) => res.json());
 };
 
-makeFetch("/api/endpoint").then((res) => {
+makeFetch<{ firstName: string; lastName: string }>(
+  "/api/endpoint"
+).then((res) => {
   console.log(res);
   //          ^?
 });

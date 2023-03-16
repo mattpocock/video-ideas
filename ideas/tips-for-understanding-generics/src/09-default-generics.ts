@@ -1,4 +1,4 @@
-export const createSet = <T>() => {
+export const createSet = <T = string>() => {
   return new Set<T>();
 };
 
